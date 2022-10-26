@@ -1,0 +1,82 @@
+/* Tablet */
+@media (max-width: 1280px) and (min-width: 500px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  section > .container {
+    width: 100%;
+  }
+
+  #banner {
+    position: relative;
+    width: 100%;
+  }
+
+  #banner .name {
+    font-size: 20px;
+    position: absolute;
+  }
+
+  #banner .job {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+  }
+
+  #nav-bar img {
+    display: none;
+  }
+
+  #nav-bar .grid-items {
+    padding: 30px 10px;
+  }
+
+  #target {
+    padding: 20px;
+  }
+
+  #personal-info {
+    padding: 20px;
+  }
+
+  #job-info .container {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  #certificate .container {
+    padding: 0;
+  }
+
+  #certificate .cert-info .cert-list {
+    padding: 10px 20px;
+    display: block;
+  }
+
+  #certificate .cert-info .cert-list:nth-child(2) {
+    border-left: 2px solid #d6c08d;
+  }
+
+  #certificate .cert-info .cert-list:nth-child(2) img {
+    border: none;
+  }
+
+  #project .container {
+    padding: 30px 20px;
+  }
+
+  #project .container .pro-info {
+    gap: 20px !important;
+  }
+
+  #project .container .pro-info .pro-list div a h1 {
+    height: 66px;
+  }
+
+  #project .container .pro-info .pro-list table tr:first-child th:nth-child(1),
+  #project .container .pro-info .pro-list table tr:first-child th:nth-child(3) {
+    height: 252px;
+  }
+}
