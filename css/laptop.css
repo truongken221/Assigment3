@@ -382,6 +382,7 @@ section > .container {
   background-color: #006fee;
   border-radius: 50px;
   padding: 2px 15px;
+  color: #fff;
 }
 
 #project .container .pro-info .pro-list a {
